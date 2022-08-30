@@ -8,5 +8,4 @@ for(let index = 0; index < myArray.length; index++){
         hello.push(element);
     }
 }
-
 console.log(hello)
