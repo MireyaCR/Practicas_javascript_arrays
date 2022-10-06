@@ -8,5 +8,5 @@ do {
         console.log(i);
     }
     i--;
-} while (i >= 0);
+} while (i > 0);
 console.log('LIFTOFF');
