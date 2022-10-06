@@ -5,5 +5,10 @@ let contact = {
 }
 for(let key in contact){
     // Code goes here
+    // let subArray = contact[key];
+    // for (let j = 0; j < subArray.length; j++) {
+    //         console.log(subArray[i]+=" : "subArray[j]) 
+    // }
+   let result += `${objName}.${i} = ${obj[i]}<br>`;
+   console.log(result); 
 }
-
