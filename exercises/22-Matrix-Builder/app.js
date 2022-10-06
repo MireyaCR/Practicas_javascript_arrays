@@ -11,6 +11,11 @@ function matrixBuilder(entero) {
     return nmatriz;
 }
 
+function matrixBuilder2(entero) {
+    return [...Array(entero)].map(()=>{
+        return [...Array(entero)].map(()=>Math.floor(Math.random() * 2))
+    })
+}
 
 // do not change anything from this line down
-console.log(matrixBuilder(5))
+console.log(matrixBuilder2(5))
