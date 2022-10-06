@@ -10,3 +10,5 @@ let tasks = [
 ];
 
 //your code here
+const newArray=tasks.filter((value)=>value.done)
+console.log(newArray)

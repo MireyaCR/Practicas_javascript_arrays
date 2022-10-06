@@ -3,10 +3,8 @@
 var myNumbers = [23, 234, 345, 4356234, 243, 43, 56, 2];
 
 // your code here
-function myFunction(params) {
-    newArray = function(value) {
-    return value * 3;
-    }
-    myNumbers.map(newArray)
+function myFunction(element) {
+    return element*3
 }
-console.log(myFunction);
+const newArray=myNumbers.map(myFunction)
+console.log(newArray);
